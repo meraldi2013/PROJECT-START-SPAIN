@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título y metadescripción optimizados con palabras clave para un mejor SEO -->
+    <title>PROJECT START | Expertos en Viabilidad Urbanística, Herencias y Gestión Técnica</title>
+    <meta name="description" content="Especialistas en viabilidad técnica, urbanística y gestión de herencias con inmuebles conflictivos a nivel nacional. Ofrecemos informes precisos para decisiones seguras y rentables."/>
+    <!-- Palabras clave actualizadas para un mejor posicionamiento -->
+    <meta name="keywords" content="viabilidad urbanística, herencias, gestión técnica, informes urbanísticos, permisos, licencias de obra, regularizar propiedad, estudio de viabilidad, asesoramiento urbanistico"/>
+    
+    <!-- Open Graph Tags ajustadas para redes sociales -->
+    <meta property="og:title" content="PROJECT START - Viabilidad Urbanística y Gestión de Proyectos"/>
+    <meta property="og:description" content="Informes de viabilidad técnica y gestión de proyectos para maximizar tu inversión en toda España."/>
+    <meta property="og:image" content="https://placehold.co/1200x630/111827/ffffff?text=PROJECT+START"/>
+    <meta property="og:url" content="https://www.tu-pagina-web.es"/>
+    <meta property="og:type" content="website"/>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        .hero-section {
+            background-image: url('https://placehold.co/1920x1080/111827/ffffff?text=PROJECT+START');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .hero-overlay {
+            background-color: rgba(17, 24, 39, 0.7);
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 700px;
+            height: 350px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .card-service {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-service:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1);
+        }
+        .article-content {
+            display: none;
+        }
+    </style>
+</head>
+<body class="text-slate-900">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-extrabold text-indigo-600">PROJECT START</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#servicios" class="text-slate-700 hover:text-indigo-600 font-semibold transition-colors">Servicios</a>
+                <a href="#herencias" class="text-slate-700 hover:text-indigo-600 font-semibold transition-colors">Herencias</a>
+                <a href="#filosofia" class="text-slate-700 hover:text-indigo-600 font-semibold transition-colors">Filosofía</a>
+                <a href="#testimonios" class="text-slate-700 hover:text-indigo-600 font-semibold transition-colors">Testimonios</a>
+                <a href="#proceso" class="text-slate-700 hover:text-indigo-600 font-semibold transition-colors">Proceso</a>
+                <a href="#recursos" class="text-slate-700 hover:text-indigo-600 font-semibold transition-colors">Recursos</a>
+                <a href="#contacto" class="text-white bg-indigo-600 hover:bg-indigo-700 px-6 py-2 rounded-lg font-bold transition-colors shadow-lg">Contacto</a>
+            </div>
+            <button class="md:hidden text-slate-600 hover:text-indigo-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section py-20 md:py-40">
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 text-white">
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight">Expertos en Viabilidad Urbanística.</h1>
+            <p class="mt-4 text-xl md:text-3xl font-light max-w-4xl mx-auto">Informes técnicos precisos que transforman la incertidumbre en seguridad y las horas de trabajo en resultados de alto valor.</p>
+            <p class="mt-4 text-lg md:text-xl font-medium max-w-4xl mx-auto">Somos tu socio de confianza para proyectos de urbanismo en toda España.</p>
+            <a href="#contacto" class="mt-10 inline-block bg-indigo-600 text-white text-xl font-bold py-4 px-12 rounded-full shadow-xl hover:bg-indigo-700 transition-all transform hover:scale-105">Solicitar un Informe de Viabilidad</a>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center text-slate-900">Nuestros Servicios Estratégicos</h2>
+            <p class="mt-4 text-lg text-slate-600 text-center max-w-3xl mx-auto">Nos enfocamos en ofrecerte el conocimiento clave para que cada euro de tu inversión esté bien justificado.</p>
+            <div class="mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-gray-100 card-service p-8 rounded-xl shadow-lg border-t-4 border-indigo-500">
+                    <span class="text-4xl text-indigo-600">🔍</span>
+                    <h3 class="mt-4 text-2xl font-bold text-slate-900">Estudios de Viabilidad</h3>
+                    <p class="mt-2 text-slate-600">Análisis técnico y urbanístico de terrenos y edificios para evaluar su potencial de desarrollo.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-gray-100 card-service p-8 rounded-xl shadow-lg border-t-4 border-indigo-500">
+                    <span class="text-4xl text-indigo-600">🏛️</span>
+                    <h3 class="mt-4 text-2xl font-bold text-slate-900">Asesoramiento Urbanístico</h3>
+                    <p class="mt-2 text-slate-600">Guía experta sobre la normativa y procedimientos administrativos, ayudándote a tomar decisiones informadas y sin riesgos en tus proyectos.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-gray-100 card-service p-8 rounded-xl shadow-lg border-t-4 border-indigo-500">
+                    <span class="text-4xl text-indigo-600">🌐</span>
+                    <h3 class="mt-4 text-2xl font-bold text-slate-900">Gestión de Proyectos</h3>
+                    <p class="mt-2 text-slate-600">Coordinación y gestión de trámites ante administraciones públicas para agilizar la obtención de permisos y licencias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- New Herencias Section -->
+    <section id="herencias" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center text-slate-900">Gestión de Herencias con Inmuebles Conflictivos</h2>
+            <p class="mt-4 text-lg text-slate-600 text-center max-w-3xl mx-auto">Te ayudamos a resolver trámites complejos con propiedades heredadas en toda España para que tomes la mejor decisión técnica y económica.</p>
+            <div class="mt-12 grid md:grid-cols-3 gap-8 text-center max-w-4xl mx-auto">
+                <!-- Herencia Step 1 -->
+                <div class="p-8 bg-white rounded-xl shadow-lg border-l-4 border-indigo-500">
+                    <span class="text-4xl text-indigo-600">🔍</span>
+                    <h3 class="mt-4 text-xl font-bold text-slate-900">Evaluación</h3>
+                    <p class="mt-2 text-slate-600">Analizamos el valor técnico y urbanístico de la propiedad, incluso si está en mal estado o sin regularizar.</p>
+                </div>
+                <!-- Herencia Step 2 -->
+                <div class="p-8 bg-white rounded-xl shadow-lg border-l-4 border-indigo-500">
+                    <span class="text-4xl text-indigo-600">⚖️</span>
+                    <h3 class="mt-4 text-xl font-bold text-slate-900">Decisión</h3>
+                    <p class="mt-2 text-slate-600">Te asesoramos para saber si es más rentable aceptar, rehabilitar o vender la propiedad heredada.</p>
+                </div>
+                <!-- Herencia Step 3 -->
+                <div class="p-8 bg-white rounded-xl shadow-lg border-l-4 border-indigo-500">
+                    <span class="text-4xl text-indigo-600">✅</span>
+                    <h3 class="mt-4 text-xl font-bold text-slate-900">Resolución</h3>
+                    <p class="mt-2 text-slate-600">Gestionamos todos los trámites necesarios ante el ayuntamiento o el catastro para regularizar la situación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nuestra Filosofía Section -->
+    <section id="filosofia" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900">Nuestra Filosofía: Visión y Precisión</h2>
+                    <p class="mt-4 text-lg text-slate-600">En **PROJECT START**, no solo ofrecemos informes. Ofrecemos la tranquilidad de tomar decisiones con **base técnica y no solo emocional**. Nuestra trayectoria de más de 30 años en ingeniería civil y urbanismo nos permite transformar la incertidumbre en una estrategia clara y segura.</p>
+                    <p class="mt-4 text-lg text-slate-600 font-semibold">Tu éxito es nuestro proyecto. Confía en experiencia real para tu inversión.</p>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img src="https://placehold.co/600x400/1d4ed8/ffffff?text=Nuestra+Filosofía" alt="" class="rounded-xl shadow-2xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center text-slate-900">Nuestros Casos de Éxito</h2>
+            <p class="mt-4 text-lg text-slate-600 text-center max-w-3xl mx-auto">La confianza de nuestros clientes es nuestra mejor carta de presentación. Aquí lo que dicen sobre nuestros servicios.</p>
+            <div class="mt-12 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Testimonio 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-indigo-500">
+                    <p class="text-slate-700 italic">"El informe de viabilidad que elaboraron fue clave para cerrar nuestra inversión. Nos ahorró tiempo y evitamos un riesgo enorme. Su profesionalidad es inigualable."</p>
+                    <p class="mt-4 font-bold text-slate-900">Ana Fernández</p>
+                    <p class="text-sm text-slate-500">Promotora, Madrid</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-indigo-500">
+                    <p class="text-slate-700 italic">"Necesitábamos una evaluación rápida y precisa de un terreno. El informe de Project Start fue claro, conciso y nos permitió tomar una decisión de inversión segura y rentable."</p>
+                    <p class="mt-4 font-bold text-slate-900">John Smith</p>
+                    <p class="text-sm text-slate-500">Inversor extranjero</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section id="beneficios" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center text-slate-900">Maximiza tu Inversión, Minimiza tus Riesgos</h2>
+            <p class="mt-4 text-lg text-slate-600 text-center max-w-3xl mx-auto">Una inversión estratégica en un informe técnico es la base de un proyecto exitoso. Compara el valor que obtienes al trabajar con nosotros.</p>
+            
+            <div class="mt-12 chart-container">
+                <canvas id="viabilityChart"></canvas>
+            </div>
+            
+            <div class="mt-12 grid md:grid-cols-2 gap-8 text-center md:text-left max-w-5xl mx-auto">
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-3xl font-bold text-indigo-600">Con Nuestra Ayuda</h3>
+                    <p class="mt-4 text-slate-700">Obtienes un informe detallado y profesional en tiempo récord. El riesgo de errores se reduce drásticamente, y tu inversión se protege y valoriza.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl shadow-md border border-gray-200">
+                    <h3 class="text-3xl font-bold text-slate-600">Haciéndolo por tu Cuenta</h3>
+                    <p class="mt-4 text-slate-700">Te enfrentas a un proceso largo, complejo y lleno de incertidumbres. Un error puede resultar en pérdidas económicas significativas y retrasos costosos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso Section -->
+    <section id="proceso" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center text-slate-900">El Proceso, de Principio a Fin</h2>
+            <p class="mt-4 text-lg text-slate-600 text-center max-w-3xl mx-auto">Nuestro método es rápido, transparente y eficiente, diseñado para respetar tu tiempo y agilizar tus decisiones.</p>
+            <div class="mt-12 grid md:grid-cols-3 gap-8">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-extrabold text-3xl mb-4">1</div>
+                    <h3 class="text-xl font-bold text-slate-900">Contacto y Valoración</h3>
+                    <p class="mt-2 text-slate-600">Nos describes tu proyecto. Te escuchamos y analizamos tus necesidades para definir el alcance del informe.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-extrabold text-3xl mb-4">2</div>
+                    <h3 class="text-xl font-bold text-slate-900">Elaboración Experta</h3>
+                    <p class="mt-2 text-slate-600">Nuestro equipo de ingenieros elabora el informe técnico de viabilidad, recolectando y analizando toda la información necesaria.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center text-center p-6 bg-white rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-extrabold text-3xl mb-4">3</div>
+                    <h3 class="text-xl font-bold text-slate-900">Entrega y Decisión</h3>
+                    <p class="mt-2 text-slate-600">Te entregamos un informe claro, profesional y accionable, dándote las bases para tomar una decisión segura y rentable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Artículos del Blog -->
+    <section id="recursos" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-center text-slate-900">Recursos y Consejos de Viabilidad Urbanística</h2>
+            <p class="mt-4 text-lg text-slate-600 text-center max-w-3xl mx-auto">Explora nuestro contenido para entender mejor el proceso y tomar decisiones informadas sobre tus proyectos de urbanismo y herencias.</p>
+            <div class="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Artículo de Blog 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+                    <h3 class="text-xl font-bold text-slate-900">¿Qué es un informe de viabilidad urbanística?</h3>
+                    <p class="mt-2 text-slate-600">Descubre por qué un estudio técnico de viabilidad es el primer paso indispensable para cualquier proyecto de construcción o inversión inmobiliaria.</p>
+                    <a href="#articulo-viabilidad" class="mt-4 inline-block text-indigo-600 font-semibold hover:text-indigo-800 transition-colors leer-mas">Leer más →</a>
+                </div>
+                <!-- Artículo de Blog 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+                    <h3 class="text-xl font-bold text-slate-900">Pasos para gestionar una herencia con un inmueble</h3>
+                    <p class="mt-2 text-slate-600">Guía práctica para resolver los trámites técnicos y legales de una herencia que incluye propiedades complicadas.</p>
+                    <a href="#articulo-herencia" class="mt-4 inline-block text-indigo-600 font-semibold hover:text-indigo-800 transition-colors leer-mas">Leer más →</a>
+                </div>
+                <!-- Artículo de Blog 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow">
+                    <h3 class="text-xl font-bold text-slate-900">Evita errores al comprar un terreno sin estudio técnico</h3>
+                    <p class="mt-2 text-slate-600">Conoce los riesgos de invertir en un terreno sin un análisis técnico y cómo un informe experto puede proteger tu inversión.</p>
+                    <a href="#articulo-terreno" class="mt-4 inline-block text-indigo-600 font-semibold hover:text-indigo-800 transition-colors leer-mas">Leer más →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenido de los Artículos (Inicialmente oculto) -->
+    <div id="articulos-completos" class="bg-white py-16 md:py-24 hidden">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Botón para volver a la sección de recursos -->
+            <button id="volver-recursos" class="mb-8 inline-flex items-center text-indigo-600 font-semibold hover:text-indigo-800 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                Volver a Recursos
+            </button>
+            <!-- Artículo 1: ¿Qué es un informe de viabilidad urbanística? -->
+            <div id="articulo-viabilidad" class="article-content max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900">¿Qué es un informe de viabilidad urbanística?</h2>
+                <p class="mt-4 text-lg text-slate-600">Si estás pensando en comprar un terreno, rehabilitar una propiedad antigua o emprender un proyecto de construcción, la primera pregunta que debes hacerte es: ¿es viable? Un **informe de viabilidad urbanística** es la herramienta profesional que responde a esa pregunta con total precisión.</p>
+                <p class="mt-4 text-lg text-slate-600">En esencia, este informe es un estudio exhaustivo que analiza las características técnicas y legales de un inmueble o terreno, evaluando si el proyecto que tienes en mente es posible y rentable.</p>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">¿Qué información contiene el informe?</h3>
+                <p class="mt-4 text-lg text-slate-600">Un informe de viabilidad no es un documento genérico; es un análisis detallado y personalizado que incluye los siguientes puntos clave:</p>
+                <ul class="mt-4 list-disc list-inside text-lg text-slate-600 space-y-2">
+                    <li>**Análisis de la normativa urbanística:** Determinamos qué se puede y qué no se puede hacer en el terreno o propiedad según el planeamiento urbanístico del municipio. Esto incluye usos permitidos (residencial, comercial, industrial), alturas máximas, retranqueos, densidades, etc.</li>
+                    <li>**Estado registral y catastral:** Verificamos que los datos del Registro de la Propiedad y el Catastro coincidan y no existan cargas o servidumbres que puedan afectar tu proyecto.</li>
+                    <li>**Valoración técnica del suelo:** Si se trata de un terreno, evaluamos su topografía, geotecnia y otros factores físicos que pueden influir en el coste y la viabilidad de la construcción.</li>
+                    <li>**Requisitos y plazos:** Te informamos sobre los permisos y licencias necesarios para llevar a cabo tu proyecto y estimamos los plazos para obtenerlos.</li>
+                </ul>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">¿Por qué es indispensable?</h3>
+                <p class="mt-4 text-lg text-slate-600">Un informe de viabilidad urbanística es tu mejor seguro contra sorpresas desagradables. Te permite:</p>
+                <ul class="mt-4 list-disc list-inside text-lg text-slate-600 space-y-2">
+                    <li>**Evitar riesgos económicos:** Descubres de antemano si el proyecto es viable, evitando invertir tiempo y dinero en algo que no podrás realizar.</li>
+                    <li>**Ahorrar tiempo:** Te ayuda a tomar decisiones rápidas y bien fundamentadas sin tener que lidiar con la burocracia administrativa por tu cuenta.</li>
+                    <li>**Maximizar la rentabilidad:** Conoces el potencial real del inmueble y puedes optimizar tu inversión desde el inicio.</li>
+                </ul>
+                <p class="mt-8 text-lg text-slate-600 font-semibold">En **PROJECT START**, te proporcionamos informes claros y profesionales que te dan la seguridad que necesitas para avanzar. No dejes tu proyecto al azar, confía en la experiencia de ingenieros para que tus decisiones sean seguras y rentables.</p>
+            </div>
+
+            <!-- Artículo 2: Pasos para gestionar una herencia con inmuebles conflictivos -->
+            <div id="articulo-herencia" class="article-content max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900">Pasos para gestionar una herencia con inmuebles conflictivos</h2>
+                <p class="mt-4 text-lg text-slate-600">Recibir una herencia puede ser un proceso complicado, especialmente cuando involucra una propiedad con problemas técnicos o legales. La incertidumbre sobre su valor real, su estado o los trámites necesarios puede ser abrumadora. Este artículo te guiará a través de los pasos clave para gestionar una herencia de este tipo de manera eficiente y segura.</p>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">Paso 1: Comprender la situación legal y urbanística del inmueble</h3>
+                <p class="mt-4 text-lg text-slate-600">Lo primero es lo primero: antes de tomar cualquier decisión, necesitas saber exactamente qué estás heredando. Esto implica investigar a fondo la propiedad.</p>
+                <ul class="mt-4 list-disc list-inside text-lg text-slate-600 space-y-2">
+                    <li>**Registro de la Propiedad y Catastro:** Es fundamental verificar que los datos en estos dos registros públicos coincidan. Las discrepancias son un problema común que puede paralizar una venta o un proyecto de rehabilitación.</li>
+                    <li>**Normativa urbanística:** ¿La propiedad cumple con la normativa actual del ayuntamiento? ¿Tiene permisos de obra? Un inmueble puede estar en situación de "fuera de ordenación" si su construcción no se ajusta al plan urbanístico vigente, lo que afecta drásticamente su valor y sus posibilidades de reforma.</li>
+                </ul>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">Paso 2: Realizar una valoración técnica de la propiedad</h3>
+                <p class="mt-4 text-lg text-slate-600">Una vez que entiendes la situación legal, es crucial determinar el valor real de la propiedad. Un perito técnico puede analizar aspectos que un tasador convencional podría pasar por alto.</p>
+                <ul class="mt-4 list-disc list-inside text-lg text-slate-600 space-y-2">
+                    <li>**Estado de la construcción:** Se evalúan los daños estructurales, el estado de las instalaciones y la necesidad de reparaciones importantes.</li>
+                    <li>**Potencial de desarrollo:** ¿El terreno permite una ampliación o la construcción de una nueva vivienda? ¿El inmueble se puede rehabilitar o es más rentable demolerlo? Un informe técnico te dará las respuestas y el potencial de rentabilidad de tu inversión.</li>
+                </ul>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">Paso 3: Tomar una decisión estratégica</h3>
+                <p class="mt-4 text-lg text-slate-600">Con toda la información en mano, es momento de tomar una decisión informada, no emocional. Las tres opciones principales suelen ser:</p>
+                <ul class="mt-4 list-disc list-inside text-lg text-slate-600 space-y-2">
+                    <li>**Vender la propiedad:** Si no quieres o no puedes asumir los costes de reforma, venderla es una opción. Un informe de viabilidad te ayudará a justificar el precio y atraer a inversores serios.</li>
+                    <li>**Rehabilitar y rentabilizar:** Si el estudio técnico muestra un potencial de rentabilidad alto, la rehabilitación puede ser una excelente inversión a largo plazo.</li>
+                    <li>**Aceptar la herencia sin un plan inmediato:** Esto puede ser una opción si necesitas tiempo para decidir, pero ten en cuenta que los problemas legales y los costes de mantenimiento no se resolverán por sí solos.</li>
+                </ul>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">Paso 4: Regularizar la situación y gestionar los trámites</h3>
+                <p class="mt-4 text-lg text-slate-600">Independientemente de tu decisión, es muy probable que necesites regularizar la situación del inmueble. Esto puede implicar la gestión de trámites ante el ayuntamiento para obtener licencias, o la actualización de los registros catastrales y de la propiedad.</p>
+                <p class="mt-8 text-lg text-slate-600 font-semibold">En **PROJECT START**, te acompañamos en cada uno de estos pasos. Nuestro equipo de ingenieros ofrece la experiencia técnica y la claridad necesaria para que, en una situación compleja como una herencia, tomes la decisión más segura y rentable posible.</p>
+            </div>
+
+            <!-- Artículo 3: Evita errores al comprar un terreno sin estudio técnico -->
+            <div id="articulo-terreno" class="article-content max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900">Evita errores al comprar un terreno sin estudio técnico</h2>
+                <p class="mt-4 text-lg text-slate-600">La compra de un terreno es una de las inversiones más significativas que puedes hacer. Sin embargo, lo que parece una gran oportunidad puede convertirse en una pesadilla de costes ocultos y trámites interminables si no se realiza un análisis previo. Un **estudio técnico del terreno** es la clave para evitar estos errores y asegurar que tu inversión sea segura y rentable.</p>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">Los 3 errores más comunes que debes evitar</h3>
+                <ul class="mt-4 list-decimal list-inside text-lg text-slate-600 space-y-2">
+                    <li>**Ignorar la normativa urbanística:** Uno de los mayores riesgos es comprar un terreno sin saber qué se puede construir en él. La normativa municipal define el uso del suelo, la edificabilidad máxima, la altura permitida y los retranqueos. Imagina comprar un terreno para construir tu casa ideal y descubrir que solo puedes edificar una vivienda de una sola planta.</li>
+                    <li>**Subestimar los costes ocultos:** El precio de compra es solo el principio. Sin un estudio técnico, no sabrás si el terreno tiene una pendiente pronunciada, si es de tipo rocoso o si tiene un acceso deficiente. Estos factores pueden inflar los costes de cimentación y construcción de forma inesperada.</li>
+                    <li>**Desconocimiento de problemas legales y registrales:** La falta de correspondencia entre el Catastro y el Registro de la Propiedad es un problema frecuente que puede bloquear cualquier proyecto de construcción. Un estudio técnico te ayuda a identificar y resolver estas discrepancias antes de que se conviertan en un problema.</li>
+                </ul>
+                <h3 class="mt-8 text-2xl font-bold text-slate-900">La solución: Un estudio técnico profesional</h3>
+                <p class="mt-4 text-lg text-slate-600">Un informe técnico de viabilidad te proporciona una visión clara y profesional de tu inversión. Nuestros ingenieros analizan cada aspecto del terreno, desde la normativa urbanística hasta las condiciones geológicas, para darte un informe completo que te permitirá:</p>
+                <ul class="mt-4 list-disc list-inside text-lg text-slate-600 space-y-2">
+                    <li>**Tomar una decisión informada:** Sabrás si el terreno cumple con tus expectativas de proyecto y si la inversión vale la pena.</li>
+                    <li>**Negociar con seguridad:** Tendrás en tus manos información precisa para negociar el precio y las condiciones de compra.</li>
+                    <li>**Planificar sin imprevistos:** Conocerás los costes y los plazos de manera más realista, evitando sorpresas desagradables a mitad de tu proyecto.</li>
+                </ul>
+                <p class="mt-8 text-lg text-slate-600 font-semibold">En **PROJECT START**, te ayudamos a convertir la incertidumbre en seguridad. Contáctanos antes de comprar un terreno y asegúrate de que tu próxima inversión sea un éxito desde el primer día.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contact Section -->
+    <section id="contacto" class="py-16 md:py-24 bg-slate-900 text-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold">Empieza tu Proyecto con Confianza</h2>
+            <p class="mt-4 text-lg text-slate-300 max-w-2xl mx-auto">Contáctanos ahora para un asesoramiento personalizado. Sin compromiso.</p>
+            <!-- Call to Action más grande y visible -->
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 mt-6">
+                <a href="tel:635153016" class="flex items-center space-x-2 text-white bg-indigo-600 px-8 py-4 rounded-full shadow-lg hover:bg-indigo-700 transition-transform transform hover:scale-105">
+                    <span class="text-xl font-bold">📞 635 15 30 16</span>
+                </a>
+                <a href="mailto:projectstartspain@gmail.com" class="flex items-center space-x-2 text-white bg-gray-700 px-8 py-4 rounded-full shadow-lg hover:bg-gray-600 transition-transform transform hover:scale-105">
+                    <span class="text-xl font-bold">📧 projectstartspain@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-8 border-t border-slate-700">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-slate-400">© 2024 PROJECT START. Todos los derechos reservados.</p>
+            <p class="text-slate-400 mt-2">Contacto: <a href="tel:635153016" class="hover:text-indigo-400 transition-colors">635 15 30 16</a> | <a href="mailto:projectstartspain@gmail.com" class="hover:text-indigo-400 transition-colors">projectstartspain@gmail.com</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chartCanvas = document.getElementById('viabilityChart').getContext('2d');
+            const viabilityChart = new Chart(chartCanvas, {
+                type: 'bar',
+                data: {
+                    labels: ['Riesgo', 'Tiempo', 'Valor Económico'],
+                    datasets: [
+                        {
+                            label: 'Trabajar con un experto',
+                            data: [20, 30, 90],
+                            backgroundColor: 'rgba(79, 70, 229, 0.9)',
+                            borderColor: 'rgba(79, 70, 229, 1)',
+                            borderWidth: 1,
+                            borderRadius: 6,
+                        },
+                        {
+                            label: 'Hacerlo por su cuenta',
+                            data: [80, 70, 40],
+                            backgroundColor: 'rgba(244, 63, 94, 0.8)',
+                            borderColor: 'rgba(244, 63, 94, 1)',
+                            borderWidth: 1,
+                            borderRadius: 6,
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#4b5563',
+                                font: {
+                                    size: 14,
+                                    weight: 'bold'
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                color: '#4b5563',
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            }
+                        },
+                        y: {
+                            grid: {
+                                color: '#e5e7eb'
+                            },
+                            ticks: {
+                                color: '#1f2937'
+                            }
+                        }
+                    }
+                }
+            });
+            
+            // Función para mostrar/ocultar los artículos
+            const articulosCompletosSection = document.getElementById('articulos-completos');
+            const recursosSection = document.getElementById('recursos');
+            const volverButton = document.getElementById('volver-recursos');
+
+            document.querySelectorAll('.leer-mas').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    
+                    // Ocultar la sección de recursos
+                    recursosSection.classList.add('hidden');
+                    
+                    // Mostrar la sección de artículos completos
+                    articulosCompletosSection.classList.remove('hidden');
+
+                    // Ocultar todos los artículos y mostrar solo el seleccionado
+                    document.querySelectorAll('.article-content').forEach(article => {
+                        article.style.display = 'none';
+                    });
+                    document.getElementById(targetId).style.display = 'block';
+
+                    // Desplazarse al inicio de la sección de artículos
+                    articulosCompletosSection.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            volverButton.addEventListener('click', function() {
+                // Ocultar la sección de artículos completos
+                articulosCompletosSection.classList.add('hidden');
+                
+                // Ocultar todos los artículos
+                document.querySelectorAll('.article-content').forEach(article => {
+                    article.style.display = 'none';
+                });
+                
+                // Mostrar la sección de recursos
+                recursosSection.classList.remove('hidden');
+
+                // Desplazarse al inicio de la sección de recursos
+                recursosSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+
+            // Función para el scroll de los enlaces de la barra de navegación
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (href.startsWith('#articulo-')) {
+                        // Si es un enlace de artículo, el JS de arriba ya se encarga
+                        return;
+                    }
+
+                    e.preventDefault();
+                    document.querySelector(href).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
